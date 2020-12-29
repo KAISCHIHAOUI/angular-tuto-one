@@ -1,8 +1,5 @@
 <hello name="{{ name }}"></hello>
-<p>
-	Start editing to see some magic happen :)
-</p>
-<app-mon-premier></app-mon-premier>
+
 
 <div class="container">
 	<div class="row">
@@ -13,7 +10,7 @@
 				<app-appareil></app-appareil>
 				<app-appareil></app-appareil>
 			</ul>
-			<button class="btn btn-success" [disable]="!isAuth">Allumer</button>
+			<button class="btn btn-success" [disabable]= "isAuth">Allumer</button>
 		</div>
 	</div>
 </div>
