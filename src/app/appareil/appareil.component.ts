@@ -6,6 +6,7 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./appareil.component.css"]
 })
 export class AppareilComponent implements OnInit {
+  
   appareilName: String = "Personal Computer";
   appareilStatus: String = "Eteind";
   constructor() {}
