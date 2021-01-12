@@ -10,7 +10,9 @@
 				<app-appareil></app-appareil>
 				<app-appareil></app-appareil>
 			</ul>
-			<button class="btn btn-success" [disabled]= "isAuth">Allumer</button>
+			<button class="btn btn-success" 
+      [disabled]= "!isAuth"
+      (click)="onAllumer()">Allumer</button>
 		</div>
 	</div>
 </div>

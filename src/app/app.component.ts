@@ -9,4 +9,14 @@ export class AppComponent {
   name = "Angular Project";
 
   isAuth = false;
+
+  constructor() {
+    setTimeout(() => {
+      this.isAuth = true;
+    }, 4000);
+  }
+
+  onAllumer() {
+    console.log("on allume tous ! ");
+  }
 }
