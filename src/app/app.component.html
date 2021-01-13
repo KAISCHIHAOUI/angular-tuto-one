@@ -5,9 +5,18 @@
     <div class="col-xs-12">
       <h2>Mes appareils</h2>
       <ul class="list-group">
-        <app-appareil [appareilName]="appareilOne"></app-appareil>
-        <app-appareil [appareilName]="appareilTwo"></app-appareil>
-        <app-appareil [appareilName]="appareilThree"></app-appareil>
+        <app-appareil
+          [appareilName]="appareilOne"
+          [appareilStatus]="'éteind'"
+        ></app-appareil>
+        <app-appareil
+          [appareilName]="appareilTwo"
+          [appareilStatus]="'allume'"
+        ></app-appareil>
+        <app-appareil
+          [appareilName]="appareilThree"
+          [appareilStatus]="'éteind'"
+        ></app-appareil>
       </ul>
       <button
         class="btn btn-success"
