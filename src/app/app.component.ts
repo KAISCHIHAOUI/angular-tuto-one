@@ -9,7 +9,12 @@ export class AppComponent {
   name = "Angular Project";
 
   isAuth = false;
-  lastUpdate = new Date();
+  lastUpdate = new Promise((resolve, reject) => {
+    const date = new Date();
+    setTimeout(() => {
+      resolve(date);
+    }, 2000);
+  });
 
   appareils = [
     { name: "Machine à laver", status: "éteint" },
