@@ -9,6 +9,7 @@ export class AppComponent {
   name = "Angular Project";
 
   isAuth = false;
+  lastUpdate = new Date();
 
   appareils = [
     { name: "Machine à laver", status: "éteint" },
