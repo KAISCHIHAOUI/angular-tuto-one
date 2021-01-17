@@ -7,10 +7,12 @@ import { HelloComponent } from "./hello.component";
 import { AppareilComponent } from "./appareil/appareil.component";
 
 import { AppareilService } from "./services/appareil.service";
+import { AuthComponent } from './auth/auth.component';
+import { AppareilViewComponent } from './appareil-view/appareil-view.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, AppareilComponent],
+  declarations: [AppComponent, HelloComponent, AppareilComponent, AuthComponent, AppareilViewComponent],
   providers: [AppareilService],
   bootstrap: [AppComponent]
 })

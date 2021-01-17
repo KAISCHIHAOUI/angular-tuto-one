@@ -1,13 +1,13 @@
-import { Component, OnInit, VERSION } from "@angular/core";
-import { AppareilService } from "./services/appareil.service";
+import { Component, OnInit } from '@angular/core';
+import { AppareilService } from '../services/appareil.service';
 
 @Component({
-  selector: "my-app",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.css"]
+  selector: 'app-appareil-view',
+  templateUrl: './appareil-view.component.html',
+  styleUrls: ['./appareil-view.component.css']
 })
-export class AppComponent implements OnInit {
-  /*name = "Angular Project";
+export class AppareilViewComponent implements OnInit {
+ name = "Angular Project";
 
   isAuth = false;
   lastUpdate = new Promise((resolve, reject) => {
@@ -37,5 +37,5 @@ export class AppComponent implements OnInit {
   }
   onEteindre() {
     this.appareilService.switchOffAll();
-  }*/
+  }
 }
