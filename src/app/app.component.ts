@@ -9,30 +9,8 @@ import { AppareilService } from "./services/appareil.service";
 export class AppComponent {
   constructor() {}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  /*name = "Angular Project";
-
+  name = "Angular Project";
+  /*
   isAuth = false;
   lastUpdate = new Promise((resolve, reject) => {
     const date = new Date();
