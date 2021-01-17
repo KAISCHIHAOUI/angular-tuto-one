@@ -6,10 +6,10 @@
 	<div style="width:20px;height:20px;background-color:green;border-radius:10px;" *ngIf="appareilStatus === 'allumé'">
 	</div>
 
-	<button class="btn btn-sm btn-success" (click)="onSwitchOn()" *ngIf="appareilStatus='éteint'">
+	<button class="btn btn-sm btn-success" (click)="onSwitchOn()" *ngIf="appareilStatus==='éteint'">
     Allumer
   </button>
-	<button class="btn btn-sm btn-danger" (click)="onSwitchOff()" *ngIf="appareilStatus='allumé'">
+	<button class="btn btn-sm btn-danger" (click)="onSwitchOff()" *ngIf="appareilStatus==='allumé'">
     Eteindre
     </button>
 
