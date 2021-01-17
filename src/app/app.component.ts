@@ -6,7 +6,31 @@ import { AppareilService } from "./services/appareil.service";
   templateUrl: "./app.component.html",
   styleUrls: ["./app.component.css"]
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
+  constructor() {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   /*name = "Angular Project";
 
   isAuth = false;
