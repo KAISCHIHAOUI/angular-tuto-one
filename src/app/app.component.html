@@ -18,8 +18,12 @@
         [disabled]="!isAuth"
         (click)="onAllumer()"
       >
-        Allumer
+       Tout Allumer
       </button>
+			<button "btn btn-danger"
+       [disabled]="!isAuth"
+      (click)="onEteindre()">
+      Tout éteintdre</button>
 		</div>
 	</div>
 </div>
