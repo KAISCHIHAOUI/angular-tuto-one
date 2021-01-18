@@ -9,7 +9,7 @@ import { AppareilService } from "./services/appareil.service";
 export class AppComponent {
   constructor() {}
 
-  name = "Angular Project";
+  name = "TRAINING WITH Angular+";
   /*
   isAuth = false;
   lastUpdate = new Promise((resolve, reject) => {
