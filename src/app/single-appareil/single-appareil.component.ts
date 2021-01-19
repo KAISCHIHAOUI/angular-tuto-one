@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { AuthService } from "../services/auth.service";
+import { AppareilService } from "../services/appareil.service";
 
 @Component({
   selector: "app-single-appareil",
@@ -10,7 +10,7 @@ export class SingleAppareilComponent implements OnInit {
   name: string = "Appareil";
   status: string = "Status";
 
-  constructor(private authService: AuthService) {}
+  constructor(private appareilService: AppareilService) {}
 
   ngOnInit() {}
 }
