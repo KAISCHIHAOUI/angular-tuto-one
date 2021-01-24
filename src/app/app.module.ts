@@ -43,7 +43,7 @@ const appRoutes: Routes = [
     SingleAppareilComponent,
     FourOhFourComponent
   ],
-  providers: [AppareilService, AuthService],
+  providers: [AppareilService, AuthService, AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
